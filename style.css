@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+    background-color: #121212; /* Dark theme */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Green for AI/ML vibes */
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #A0A0A0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #1E1E1E;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+section#about, section#projects, section#contact {
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+/* Section Titles */
+h2 {
+    color: #4CAF50;
+    font-size: 2em;
+}
+
+/* Projects Section */
+section#projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#projects ul li {
+    margin: 10px 0;
+}
+
+section#projects ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+section#projects ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
+
+/* Button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+}
